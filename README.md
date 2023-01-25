@@ -15,7 +15,7 @@ docker cp ./3.sql some-mysql:./3.sql
 ## コンテナ入る
 
 ```
-docker exec some-mysql bash
+docker exec -it some-mysql bash
 ```
 
 ## コンテナでSQLファイル実行
